@@ -7,3 +7,6 @@
 [submodule "external/NVDLA"]
 	path = external/NVDLA
 	url = https://github.com/nvdla/sw.git
+[submodule "src"]
+	path = src
+	url = https://github.com/jinchenglee/onnc.git
