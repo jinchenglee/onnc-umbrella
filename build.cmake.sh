@@ -59,6 +59,7 @@ function build_onnc
       ;;
   esac
 
+  local MAX_MAKE_JOBS=7
   local PARALLEL_BUILD_FLAG=${MAX_MAKE_JOBS:+"-j${MAX_MAKE_JOBS}"}
   show "making ... #jobs=${MAX_MAKE_JOBS}"
   if [ "${IS_PREFIX_GIVEN}" = "true" ]; then
